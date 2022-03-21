@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.App {
+  text-align: center;
+}
+
+.inp{
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  height:25px;
+  border:3px solid rgb(138, 138, 138);
+  border-radius: 8px;
+}
+
+.btn{
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 15px;
+  height:30px;
+  border-radius: 8px;
+  border:2px solid white;
+  background-color: transparent;
+  color:white;
+}
+
+
+.list{
+  color:white;
+  margin-top: 9px;
+  border:3px solid rgb(255, 255, 255);
+  width:400px;
+  margin-left: 455px;
+  display: flex;
+background-color: rgba(143, 90, 228, 0.268);
+  justify-content:center ;
+  animation-name: anim;
+  animation-duration: 0.7s;
+  border-radius: 5px;
+}
+
+.main{
+  margin-top: 100px;
+  
+  border:1px solid red;
+  
+  
+}
+
+.btnclose{
+  display: flex;
+  justify-content: center;
+align-content: center;
+  border:3px solid rgb(255, 25, 0);
+  width:53px;
+  height: 25px;
+  margin-top: -25px;
+  margin-left:865px;
+  position: absolute;
+  background-color: red;
+  color:white;
+  border-radius: 5px;
+  
+
+
+ 
+}
+
+.edit{
+  background-color: rgb(201, 228, 247);
+  margin-top: 15px;
+  margin-left: 70px;
+  border:3px solid rgb(4, 144, 169);
+  animation-name: anim;
+  border-radius: 4px;
+  color:rgb(0, 4, 123);
+  animation-duration: 0.7s;
+}
+
+
+@keyframes anim {
+  from{
+    transform: rotateX(0deg);
+    background-color:rgb(245, 3, 3);
+  }
+
+  to{
+    transform: rotateX(360deg)
+  }
+  
+}
+
+.btnedit{
+  background-color: rgb(4, 0, 255);
+  border:2px solid rgba(255, 255, 255, 0.973);
+  color:white;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.cancel{
+  margin-left: 10px;
+  color:white;
+ cursor: pointer;
+}
